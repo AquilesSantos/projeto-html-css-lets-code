@@ -1,0 +1,32 @@
+@import '../home/style.css';
+
+.main-conntent {
+  width: 85%;
+}
+
+.card-container {
+  margin: 0.5rem 1rem;
+  text-align: center;
+}
+
+.tattoo-artist {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.tattoo-artist-info span {
+  color: var(--text);
+}
+
+.tattoo-artist-info i {
+  color: var(--text);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.tattoo-artist-info span:hover,
+.tattoo-artist-info i:hover {
+  cursor: pointer;
+  color: var(--primary);  
+}
